@@ -1,9 +1,9 @@
 {
-  "name": "await-lock",
+  "name": "await-resource-release",
   "version": "2.1.0",
-  "description": "Mutex locks for async functions",
-  "main": "build/AwaitLock.js",
-  "types": "build/AwaitLock.d.ts",
+  "description": "Async lock for shared resource release",
+  "main": "build/AwaitResourceRelease.js",
+  "types": "build/AwaitResourceRelease.d.ts",
   "files": [
     "build"
   ],
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ide/await-lock.git"
+    "url": "https://github.com/vuwuv/await-resource-release"
   },
   "keywords": [
     "async",
@@ -28,12 +28,12 @@
     "generator",
     "promise"
   ],
-  "author": "James Ide",
+  "author": "vuwuv",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ide/await-lock/issues"
+    "url": "https://github.com/vuwuv/await-resource-release/issues"
   },
-  "homepage": "https://github.com/ide/await-lock",
+  "homepage": "https://github.com/vuwuv/await-resource-release",
   "jest": {
     "rootDir": "src"
   },
