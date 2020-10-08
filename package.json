@@ -1,6 +1,6 @@
 {
   "name": "await-resource-release",
-  "version": "2.1.0",
+  "version": "1.0.0",
   "description": "Async lock for shared resource release",
   "main": "build/AwaitResourceRelease.js",
   "types": "build/AwaitResourceRelease.d.ts",
